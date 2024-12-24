@@ -1,0 +1,8 @@
+{
+    "beats": [
+        { "time": 0.5, "duration": 0 },
+        { "time": 1.0, "duration": 0 },
+        { "time": 2.5, "duration": 1.5 },
+        { "time": 4.0, "duration": 0 }
+    ]
+}
