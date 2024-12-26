@@ -6,15 +6,36 @@ public class TileController : MonoBehaviour
     public GameObject correctPressEffectPrefab; // The effect prefab for correct press
     private bool isHittable = false;  // Whether the tile is within the hit area
     private bool hasBeenPressed = false; // To track if the tile has already been pressed
-    private string currentKey = ""; // To store the key that should trigger the press
 
     void Update()
     {
         // Only respond if the tile is hittable and hasn't been pressed yet
         if (isHittable && !hasBeenPressed)
         {
-            // Check if the received data matches the expected key for this tile's line
-            if (ArduinoInput.receivedData == currentKey)
+            bool keyMatched = false;
+
+            // Check for keyboard input
+            if (line == 1 && Input.GetKeyDown(KeyCode.V))
+                keyMatched = true;
+            else if (line == 2 && Input.GetKeyDown(KeyCode.B))
+                keyMatched = true;
+            else if (line == 3 && Input.GetKeyDown(KeyCode.N))
+                keyMatched = true;
+            else if (line == 4 && Input.GetKeyDown(KeyCode.M))
+                keyMatched = true;
+
+            // Check for Arduino input
+            if (line == 1 && ArduinoInput.receivedData == "V")
+                keyMatched = true;
+            else if (line == 2 && ArduinoInput.receivedData == "B")
+                keyMatched = true;
+            else if (line == 3 && ArduinoInput.receivedData == "N")
+                keyMatched = true;
+            else if (line == 4 && ArduinoInput.receivedData == "M")
+                keyMatched = true;
+
+            // If either keyboard or Arduino input matched
+            if (keyMatched)
             {
                 Debug.Log($"Tile hit on line {line}!");
 
@@ -28,7 +49,7 @@ public class TileController : MonoBehaviour
                 // Mark the tile as pressed so it won't get pressed again
                 hasBeenPressed = true;
 
-                // Clear the received data to avoid triggering other tiles
+                // Clear the Arduino input to prevent double presses
                 ArduinoInput.receivedData = "";
             }
         }
@@ -40,16 +61,6 @@ public class TileController : MonoBehaviour
         {
             isHittable = true; // Tile is within the hit area
             Debug.Log($"Tile {line} is hittable");
-
-            // Set the current key for the tile based on its line
-            if (line == 1)
-                currentKey = "V";
-            else if (line == 2)
-                currentKey = "B";
-            else if (line == 3)
-                currentKey = "N";
-            else if (line == 4)
-                currentKey = "M";
         }
     }
 
@@ -62,3 +73,4 @@ public class TileController : MonoBehaviour
         }
     }
 }
+

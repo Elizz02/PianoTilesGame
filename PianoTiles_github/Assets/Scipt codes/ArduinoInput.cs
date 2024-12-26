@@ -21,7 +21,7 @@ public class ArduinoInput : MonoBehaviour
         {
             serialPort = new SerialPort(portName, baudRate);
             serialPort.Open();  // Open the port
-            serialPort.ReadTimeout = 100;  // Set timeout for reading data (in milliseconds)
+            serialPort.ReadTimeout = 10;  // Set timeout for reading data (in milliseconds)
             isPortOpen = true;
             Debug.Log("Serial Port Opened");
         }
