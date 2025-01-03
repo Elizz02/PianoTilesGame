@@ -25,3 +25,6 @@ public class CountdownController : MonoBehaviour
         }
     }
 }
+
+
+//habis musik di main game scene selesai. Pindah ke scene game end. bikin scripnya di main game.
