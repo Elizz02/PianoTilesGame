@@ -1,11 +1,79 @@
 using UnityEngine;
+using TMPro;
 
 public class TileController : MonoBehaviour
 {
     public int line; // The line this tile belongs to (1 = V, 2 = B, etc.)
     public GameObject correctPressEffectPrefab; // The effect prefab for correct press
-    private bool isHittable = false;  // Whether the tile is within the hit area
+    public AudioSource hitSFX; // Sound effect for a hit
+    public AudioSource missSFX; // Sound effect for a miss
+    public TextMeshProUGUI scoreText; // UI text to display the score
+    public Transform hitLine; // Reference to the hit line position
+
+    private bool isHittable = false; // Whether the tile is within the hit area
     private bool hasBeenPressed = false; // To track if the tile has already been pressed
+    private int totalScore = 0; // Total score
+    private float tileHeight; // Height of the tile
+
+    private void Start()
+    {
+        tileHeight = GetComponent<SpriteRenderer>().bounds.size.y; // Get the tile height based on its sprite
+    }
+
+    private void UpdateScoreText()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = $"Score: {totalScore}";
+        }
+        else
+        {
+            Debug.LogError("Score Text is not assigned!");
+        }
+    }
+
+    private int CalculateScore()
+    {
+        if (hitLine == null)
+        {
+            Debug.LogError("HitLine is not assigned!");
+            return 0;
+        }
+
+        float distanceToHitLine = Mathf.Abs(transform.position.y - hitLine.position.y);
+
+        // Calculate score based on the hit position
+        if (distanceToHitLine <= tileHeight * 0.25f) // Bottom edge (25% of tile height)
+            return 100;
+        else if (distanceToHitLine <= tileHeight * 0.5f) // Halfway point (50% of tile height)
+            return 50;
+        else if (distanceToHitLine <= tileHeight * 0.75f) // Third quarter (75% of tile height)
+            return 20;
+        else
+            return 0; // Missed or too far from the hit line
+    }
+
+    private void Hit()
+    {
+        int points = CalculateScore();
+        totalScore += points;
+
+        if (hitSFX != null)
+            hitSFX.Play();
+
+        UpdateScoreText();
+
+        Debug.Log($"Tile hit! Points awarded: {points}");
+    }
+
+    private void Miss()
+    {
+        Debug.Log("Tile missed! 0 points awarded.");
+        if (missSFX != null)
+            missSFX.Play();
+
+        UpdateScoreText();
+    }
 
     void Update()
     {
@@ -39,6 +107,9 @@ public class TileController : MonoBehaviour
             {
                 Debug.Log($"Tile hit on line {line}!");
 
+                // Call the Hit method
+                Hit();
+
                 // Instantiate the particle effect at the tile's position
                 GameObject effect = Instantiate(correctPressEffectPrefab, transform.position, Quaternion.identity);
                 Destroy(effect, 1.22f); // Adjust the time based on your particle duration
@@ -70,7 +141,13 @@ public class TileController : MonoBehaviour
         {
             isHittable = false; // Tile leaves the hit area
             Debug.Log($"Tile {line} is no longer hittable");
+
+            // Call the Miss method when the tile exits the hit area without being pressed
+            if (!hasBeenPressed)
+            {
+                Miss();
+                Destroy(gameObject); // Destroy the tile after a miss
+            }
         }
     }
 }
-
