@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 316403958}
   - component: {fileID: 316403957}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: FinalScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -778,6 +778,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameEndingText: {fileID: 102836352}
+--- !u!1 &711744968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 711744970}
+  - component: {fileID: 711744969}
+  m_Layer: 0
+  m_Name: Final Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &711744969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711744968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 949149a215f2d5140a8256346729ba07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: 0
+  correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
+  hitSFX: {fileID: 0}
+  missSFX: {fileID: 0}
+  scoreText: {fileID: 316403957}
+  hitLine: {fileID: 0}
+--- !u!4 &711744970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711744968}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100.61581, y: 49.98805, z: 0.62952745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1189806341
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,3 +1125,4 @@ SceneRoots:
   - {fileID: 1574607832}
   - {fileID: 692905325}
   - {fileID: 1189806343}
+  - {fileID: 711744970}

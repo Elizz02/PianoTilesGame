@@ -175,7 +175,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &35970998
 MonoBehaviour:
@@ -367,7 +367,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &61523799
 MonoBehaviour:
@@ -559,7 +559,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &64328110
 MonoBehaviour:
@@ -751,7 +751,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &112072961
 MonoBehaviour:
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &163087106
 MonoBehaviour:
@@ -1290,7 +1290,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &167546513
 MonoBehaviour:
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &177305861
 MonoBehaviour:
@@ -1742,7 +1742,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &191808924
 MonoBehaviour:
@@ -1934,7 +1934,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &197854592
 MonoBehaviour:
@@ -2126,7 +2126,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &277522598
 MonoBehaviour:
@@ -2318,7 +2318,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &307634747
 MonoBehaviour:
@@ -2510,7 +2510,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &308183166
 MonoBehaviour:
@@ -2702,7 +2702,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &359095891
 MonoBehaviour:
@@ -2894,7 +2894,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &371708400
 MonoBehaviour:
@@ -3086,7 +3086,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &396894092
 MonoBehaviour:
@@ -3278,7 +3278,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &432692733
 MonoBehaviour:
@@ -3470,7 +3470,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &442092279
 MonoBehaviour:
@@ -3662,7 +3662,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &476270131
 MonoBehaviour:
@@ -3854,7 +3854,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &483170583
 MonoBehaviour:
@@ -4046,7 +4046,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &491647678
 MonoBehaviour:
@@ -4238,7 +4238,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &495283289
 MonoBehaviour:
@@ -4430,7 +4430,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &533834229
 MonoBehaviour:
@@ -4622,7 +4622,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &537320797
 MonoBehaviour:
@@ -4814,7 +4814,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &565343383
 MonoBehaviour:
@@ -5006,7 +5006,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &600510547
 MonoBehaviour:
@@ -5198,7 +5198,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &605878965
 MonoBehaviour:
@@ -5390,7 +5390,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &607350687
 MonoBehaviour:
@@ -5582,7 +5582,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &610452176
 MonoBehaviour:
@@ -5774,7 +5774,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &628942123
 MonoBehaviour:
@@ -5966,7 +5966,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &633975717
 MonoBehaviour:
@@ -6158,7 +6158,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &635422744
 MonoBehaviour:
@@ -6350,7 +6350,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &639239012
 MonoBehaviour:
@@ -6542,7 +6542,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &645738202
 MonoBehaviour:
@@ -6734,7 +6734,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &654618563
 MonoBehaviour:
@@ -6926,7 +6926,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &667419422
 MonoBehaviour:
@@ -7118,7 +7118,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &678445604
 MonoBehaviour:
@@ -7310,7 +7310,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &694776143
 MonoBehaviour:
@@ -7886,7 +7886,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &748685040
 MonoBehaviour:
@@ -8078,7 +8078,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &750566438
 MonoBehaviour:
@@ -8270,7 +8270,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &779972853
 MonoBehaviour:
@@ -8462,7 +8462,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &790740393
 MonoBehaviour:
@@ -8689,7 +8689,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &862849815
 MonoBehaviour:
@@ -8860,7 +8860,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1043774822}
+  - {fileID: 6383565623762740271}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8983,7 +8983,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &928694700
 MonoBehaviour:
@@ -9175,7 +9175,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &933953939
 MonoBehaviour:
@@ -9367,7 +9367,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &983692588
 MonoBehaviour:
@@ -9559,7 +9559,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1027600257
 MonoBehaviour:
@@ -9751,7 +9751,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1030129001
 MonoBehaviour:
@@ -9891,140 +9891,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1043774821
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1043774822}
-  - component: {fileID: 1043774824}
-  - component: {fileID: 1043774823}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1043774822
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043774821}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8163423, y: 0.8163423, z: 0.8163423}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 893950617}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.9, y: 150}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1043774823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043774821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: ' Score :'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: -49.59351, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1043774824
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043774821}
-  m_CullTransparentMesh: 1
 --- !u!1 &1055200944
 GameObject:
   m_ObjectHideFlags: 0
@@ -10077,7 +9943,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1055200947
 MonoBehaviour:
@@ -10269,7 +10135,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1078338559
 MonoBehaviour:
@@ -10461,7 +10327,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1087155516
 MonoBehaviour:
@@ -10653,7 +10519,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &1097531602
 MonoBehaviour:
@@ -10876,7 +10742,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1115304318
 MonoBehaviour:
@@ -11068,7 +10934,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1143489357
 MonoBehaviour:
@@ -11260,7 +11126,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1181893467
 MonoBehaviour:
@@ -11452,7 +11318,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1192959386
 MonoBehaviour:
@@ -11644,7 +11510,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1209637470
 MonoBehaviour:
@@ -11836,7 +11702,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1239097644
 MonoBehaviour:
@@ -12074,7 +11940,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1310959844
 MonoBehaviour:
@@ -12266,7 +12132,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1338965838
 MonoBehaviour:
@@ -12458,7 +12324,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1360734777
 MonoBehaviour:
@@ -12650,7 +12516,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &1361774564
 MonoBehaviour:
@@ -13000,7 +12866,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1443520993
 MonoBehaviour:
@@ -13276,7 +13142,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1445264391
 MonoBehaviour:
@@ -13468,7 +13334,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1454432977
 MonoBehaviour:
@@ -13660,7 +13526,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1465183526
 MonoBehaviour:
@@ -13852,7 +13718,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1467345049
 MonoBehaviour:
@@ -14044,7 +13910,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1471086927
 MonoBehaviour:
@@ -14236,7 +14102,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &1486062641
 MonoBehaviour:
@@ -14428,7 +14294,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1501234808
 MonoBehaviour:
@@ -14620,7 +14486,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1506520922
 MonoBehaviour:
@@ -14812,7 +14678,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1514204446
 MonoBehaviour:
@@ -15004,7 +14870,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1567125306
 MonoBehaviour:
@@ -15196,7 +15062,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1614917411
 MonoBehaviour:
@@ -15388,7 +15254,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &1623536993
 MonoBehaviour:
@@ -15580,7 +15446,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1633107320
 MonoBehaviour:
@@ -15772,7 +15638,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &1648661426
 MonoBehaviour:
@@ -15964,7 +15830,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1666123613
 MonoBehaviour:
@@ -16156,7 +16022,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1684866122
 MonoBehaviour:
@@ -16348,7 +16214,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &1704186938
 MonoBehaviour:
@@ -16540,7 +16406,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1712002817
 MonoBehaviour:
@@ -16711,6 +16577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 139100622}
   nextSceneName: GameOver
+  delayAfterMusic: 2
 --- !u!4 &1745261791
 Transform:
   m_ObjectHideFlags: 0
@@ -16778,7 +16645,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1755744552
 MonoBehaviour:
@@ -16970,7 +16837,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1761850281
 MonoBehaviour:
@@ -17162,7 +17029,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1805708538
 MonoBehaviour:
@@ -17354,7 +17221,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1836901032
 MonoBehaviour:
@@ -17546,7 +17413,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1846547400
 MonoBehaviour:
@@ -17738,7 +17605,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1850820238
 MonoBehaviour:
@@ -17930,7 +17797,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &1851102527
 MonoBehaviour:
@@ -18268,7 +18135,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &1898353948
 MonoBehaviour:
@@ -18606,7 +18473,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1938323478
 MonoBehaviour:
@@ -18798,7 +18665,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1939011273
 MonoBehaviour:
@@ -18990,7 +18857,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 719265926}
 --- !u!114 &1957048695
 MonoBehaviour:
@@ -19265,7 +19132,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 740719988}
 --- !u!114 &1977474382
 MonoBehaviour:
@@ -19457,7 +19324,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &2011433907
 MonoBehaviour:
@@ -19649,7 +19516,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1887449831}
 --- !u!114 &2023639558
 MonoBehaviour:
@@ -19841,7 +19708,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &2064730123
 MonoBehaviour:
@@ -20033,7 +19900,7 @@ MonoBehaviour:
   correctPressEffectPrefab: {fileID: 4138306080654362476, guid: b5f2315321594834d8634c4391ee9dfc, type: 3}
   hitSFX: {fileID: 0}
   missSFX: {fileID: 0}
-  scoreText: {fileID: 1043774823}
+  scoreText: {fileID: 6496513330202290083}
   hitLine: {fileID: 1915386106}
 --- !u!114 &2102763453
 MonoBehaviour:
@@ -20257,6 +20124,119 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5998466886139965605
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 893950617}
+    m_Modifications:
+    - target: {fileID: 6370291874234901614, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_Name
+      value: FinalScoreText
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+--- !u!224 &6383565623762740271 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8278103593840195706, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+  m_PrefabInstance: {fileID: 5998466886139965605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6496513330202290083 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1435323301885598111, guid: 1a8f118a5a2d2184594a52c85dc2a84e, type: 3}
+  m_PrefabInstance: {fileID: 5998466886139965605}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

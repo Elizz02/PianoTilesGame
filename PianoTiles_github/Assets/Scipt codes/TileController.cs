@@ -19,7 +19,17 @@ public class TileController : MonoBehaviour
     // When loading a new scene, check if it's the Game Over or Main Menu and display/reset score accordingly.
     private void Start()
     {
-        tileHeight = GetComponent<SpriteRenderer>().bounds.size.y; // Get the tile height based on its sprite
+        // Check if the current scene is not the GameOver scene and if there's a SpriteRenderer attached
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            tileHeight = spriteRenderer.bounds.size.y; // Get the tile height based on its sprite
+        }
+        else
+        {
+            Debug.LogWarning("No SpriteRenderer found. Skipping tile height calculation.");
+            tileHeight = 1f; // Set a default value for tile height
+        }
 
         // If we're in the GameOver scene, show the score.
         if (SceneManager.GetActiveScene().name == "GameOver")
@@ -73,11 +83,11 @@ public class TileController : MonoBehaviour
         float distanceToHitLine = Mathf.Abs(transform.position.y - hitLine.position.y);
 
         // Calculate score based on the hit position
-        if (distanceToHitLine <= tileHeight * 0.25f)
+        if (distanceToHitLine <= tileHeight * 0.75f)
             return 10; // Perfect hit
         else if (distanceToHitLine <= tileHeight * 0.5f)
             return 5; // Good hit
-        else if (distanceToHitLine <= tileHeight * 0.75f)
+        else if (distanceToHitLine <= tileHeight * 0.25f)
             return 2; // Okay hit
         else
             return 0; // Miss
@@ -175,5 +185,14 @@ public class TileController : MonoBehaviour
     {
         totalScore = 0;  // Reset score to zero
         UpdateScoreText(); // Update the UI
+    }
+
+    // This ensures the final score is displayed when the GameOver scene is loaded
+    private void OnEnable()
+    {
+        if (SceneManager.GetActiveScene().name == "GameOver")
+        {
+            DisplayScoreInGameOver(); // Show final score when the GameOver scene is loaded
+        }
     }
 }
