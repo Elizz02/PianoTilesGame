@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TileController : MonoBehaviour
 {
@@ -12,12 +13,29 @@ public class TileController : MonoBehaviour
 
     private bool isHittable = false; // Whether the tile is within the hit area
     private bool hasBeenPressed = false; // To track if the tile has already been pressed
-    private int totalScore = 0; // Total score
+    private static int totalScore = 0; // Total score (static for persistence across instances)
     private float tileHeight; // Height of the tile
 
+    // When loading a new scene, check if it's the Game Over or Main Menu and display/reset score accordingly.
     private void Start()
     {
         tileHeight = GetComponent<SpriteRenderer>().bounds.size.y; // Get the tile height based on its sprite
+
+        // If we're in the GameOver scene, show the score.
+        if (SceneManager.GetActiveScene().name == "GameOver")
+        {
+            DisplayScoreInGameOver();
+        }
+        else
+        {
+            // Reset score at the start of the game
+            if (SceneManager.GetActiveScene().name == "SampleScene")
+            {
+                totalScore = 0; // Reset score if starting a new game
+            }
+
+            UpdateScoreText(); // Ensure the score is displayed correctly on start
+        }
     }
 
     private void UpdateScoreText()
@@ -32,6 +50,18 @@ public class TileController : MonoBehaviour
         }
     }
 
+    private void DisplayScoreInGameOver()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = $"Final Score: {totalScore}";
+        }
+        else
+        {
+            Debug.LogError("Score Text is not assigned in the GameOver scene!");
+        }
+    }
+
     private int CalculateScore()
     {
         if (hitLine == null)
@@ -43,20 +73,20 @@ public class TileController : MonoBehaviour
         float distanceToHitLine = Mathf.Abs(transform.position.y - hitLine.position.y);
 
         // Calculate score based on the hit position
-        if (distanceToHitLine <= tileHeight * 0.25f) // Bottom edge (25% of tile height)
-            return 100;
-        else if (distanceToHitLine <= tileHeight * 0.5f) // Halfway point (50% of tile height)
-            return 50;
-        else if (distanceToHitLine <= tileHeight * 0.75f) // Third quarter (75% of tile height)
-            return 20;
+        if (distanceToHitLine <= tileHeight * 0.25f)
+            return 10; // Perfect hit
+        else if (distanceToHitLine <= tileHeight * 0.5f)
+            return 5; // Good hit
+        else if (distanceToHitLine <= tileHeight * 0.75f)
+            return 2; // Okay hit
         else
-            return 0; // Missed or too far from the hit line
+            return 0; // Miss
     }
 
     private void Hit()
     {
         int points = CalculateScore();
-        totalScore += points;
+        totalScore += points; // Add points to the static totalScore variable
 
         if (hitSFX != null)
             hitSFX.Play();
@@ -71,13 +101,10 @@ public class TileController : MonoBehaviour
         Debug.Log("Tile missed! 0 points awarded.");
         if (missSFX != null)
             missSFX.Play();
-
-        UpdateScoreText();
     }
 
     void Update()
     {
-        // Only respond if the tile is hittable and hasn't been pressed yet
         if (isHittable && !hasBeenPressed)
         {
             bool keyMatched = false;
@@ -102,22 +129,17 @@ public class TileController : MonoBehaviour
             else if (line == 4 && ArduinoInput.receivedData == "M")
                 keyMatched = true;
 
-            // If either keyboard or Arduino input matched
             if (keyMatched)
             {
-                Debug.Log($"Tile hit on line {line}!");
-
-                // Call the Hit method
                 Hit();
 
                 // Instantiate the particle effect at the tile's position
                 GameObject effect = Instantiate(correctPressEffectPrefab, transform.position, Quaternion.identity);
-                Destroy(effect, 1.22f); // Adjust the time based on your particle duration
+                Destroy(effect, 1.22f);
 
-                // Destroy the tile after hitting the correct line
+                // Destroy the tile
                 Destroy(gameObject);
 
-                // Mark the tile as pressed so it won't get pressed again
                 hasBeenPressed = true;
 
                 // Clear the Arduino input to prevent double presses
@@ -130,8 +152,7 @@ public class TileController : MonoBehaviour
     {
         if (other.CompareTag("HitLine"))
         {
-            isHittable = true; // Tile is within the hit area
-            Debug.Log($"Tile {line} is hittable");
+            isHittable = true;
         }
     }
 
@@ -139,15 +160,20 @@ public class TileController : MonoBehaviour
     {
         if (other.CompareTag("HitLine"))
         {
-            isHittable = false; // Tile leaves the hit area
-            Debug.Log($"Tile {line} is no longer hittable");
+            isHittable = false;
 
-            // Call the Miss method when the tile exits the hit area without being pressed
             if (!hasBeenPressed)
             {
                 Miss();
-                Destroy(gameObject); // Destroy the tile after a miss
+                Destroy(gameObject);
             }
         }
+    }
+
+    // Call this method to reset the score when returning to the main menu
+    public void ResetScore()
+    {
+        totalScore = 0;  // Reset score to zero
+        UpdateScoreText(); // Update the UI
     }
 }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;  // Pastikan ini ada untuk TextMeshPro
+using UnityEngine.SceneManagement; // Untuk mengelola scene
 using System.Collections;
 
 public class GameEnding : MonoBehaviour
@@ -21,11 +22,17 @@ public class GameEnding : MonoBehaviour
 
     void Update()
     {
-        // Menampilkan teks "Game Ends" setelah beberapa detik (misalnya 1 detik)
+        // Menampilkan teks "Game Ends" jika belum ditampilkan
         if (!isShowingText)
         {
             StartCoroutine(ShowGameEndingText());
             isShowingText = true;
+        }
+
+        // Hentikan permainan jika pemain menekan tombol Escape atau dengan metode lain (opsional)
+        if (Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            QuitGame();
         }
     }
 
@@ -39,15 +46,44 @@ public class GameEnding : MonoBehaviour
             gameEndingText.text = "The End"; // Teks yang akan ditampilkan
         }
 
-        // Tunggu beberapa detik (misalnya 3 detik) sebelum mengakhiri permainan
-        yield return new WaitForSeconds(3f);
+        // Tunggu beberapa detik sebelum memberikan kesempatan bagi pemain untuk melihat pesan
+        yield return null; // Tidak ada delay lagi di sini
+    }
 
-        // Akhiri permainan
+    // Fungsi untuk keluar dari permainan (manual)
+    private void QuitGame()
+    {
+        // Keluar dari aplikasi jika build
         Application.Quit();
 
         // Jika di editor Unity, berhenti dari pemutaran permainan
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #endif
+    }
+
+    // Fungsi untuk kembali ke Main Menu
+    public void LoadMainMenu()
+    {
+        // Reset game elements (like score, music, etc.)
+        ResetGame();
+
+        // Muat scene Main Menu
+        SceneManager.LoadScene("MainMenu"); // Ganti dengan nama scene main menu Anda
+    }
+
+    // Fungsi untuk mereset game (seperti score, musik, dll)
+    private void ResetGame()
+    {
+        // Reset Score
+        // Contoh:
+        // ScoreManager.instance.ResetScore();
+
+        // Reset Music (misalnya, hentikan musik atau reset audio source)
+        // Contoh:
+        // AudioManager.instance.ResetMusic();
+
+        // Reset atau stop semua elemen yang perlu di-reset
+        // Misalnya, jika Anda memiliki sistem yang melacak game time, status karakter, atau lainnya, reset di sini
     }
 }
